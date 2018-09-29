@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    lazy var game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
+    
     var flipCount = 0 {
         didSet {
             flipCountLabel.text = "Flip Count: \(flipCount)"
@@ -25,11 +27,16 @@ class ViewController: UIViewController {
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
         if let cardNumber = cardButtons.index(of: sender) {  //Read from array - Unwrap  Optional
-            flipCar(withEmoji: emojiChoices[cardNumber], on: sender)
+            game.chooseCard(at: cardNumber)
+            updateViewFromModel()
         }
         else {
             print("No Card")
         }
+    }
+    
+    func updateViewFromModel() {
+        
     }
     
     func flipCar(withEmoji emoji: String, on button: UIButton) {
