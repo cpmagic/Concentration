@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Concentration
+//  Concentration - Lesson 2
 //
 //  Created by Thomas Hill on 8/8/2018.
 //  Copyright © 2018 Computer Magic. All rights reserved.
