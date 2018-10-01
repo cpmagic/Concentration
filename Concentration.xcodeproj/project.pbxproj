@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02270B91215FB63A00BF6A35 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02270B90215FB63A00BF6A35 /* Concentration.swift */; };
-		02270B93215FB64500BF6A35 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02270B92215FB64500BF6A35 /* Card.swift */; };
 		02722F30211B49A500360E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02722F2F211B49A500360E9A /* AppDelegate.swift */; };
 		02722F32211B49A500360E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02722F31211B49A500360E9A /* ViewController.swift */; };
 		02722F35211B49A500360E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02722F33211B49A500360E9A /* Main.storyboard */; };
 		02722F37211B49A600360E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02722F36211B49A600360E9A /* Assets.xcassets */; };
 		02722F3A211B49A600360E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02722F38211B49A600360E9A /* LaunchScreen.storyboard */; };
+		02EE557021615DF1008E6297 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE556F21615DF1008E6297 /* Concentration.swift */; };
+		02EE557221615ED3008E6297 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE557121615ED3008E6297 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02270B90215FB63A00BF6A35 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		02270B92215FB64500BF6A35 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		02722F2C211B49A400360E9A /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02722F2F211B49A500360E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02722F31211B49A500360E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +24,8 @@
 		02722F36211B49A600360E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02722F39211B49A600360E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02722F3B211B49A600360E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EE556F21615DF1008E6297 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		02EE557121615ED3008E6297 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		02722F2E211B49A400360E9A /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				02EE556F21615DF1008E6297 /* Concentration.swift */,
+				02EE557121615ED3008E6297 /* Card.swift */,
 				02722F2F211B49A500360E9A /* AppDelegate.swift */,
 				02722F31211B49A500360E9A /* ViewController.swift */,
-				02270B92215FB64500BF6A35 /* Card.swift */,
-				02270B90215FB63A00BF6A35 /* Concentration.swift */,
 				02722F33211B49A500360E9A /* Main.storyboard */,
 				02722F36211B49A600360E9A /* Assets.xcassets */,
 				02722F38211B49A600360E9A /* LaunchScreen.storyboard */,
@@ -144,8 +144,8 @@
 			files = (
 				02722F32211B49A500360E9A /* ViewController.swift in Sources */,
 				02722F30211B49A500360E9A /* AppDelegate.swift in Sources */,
-				02270B91215FB63A00BF6A35 /* Concentration.swift in Sources */,
-				02270B93215FB64500BF6A35 /* Card.swift in Sources */,
+				02EE557021615DF1008E6297 /* Concentration.swift in Sources */,
+				02EE557221615ED3008E6297 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
